@@ -115,14 +115,6 @@ header {
     background-color: rgba(255, 255, 255, 0.1); /* Darker than the previous color to be more subtle */
 }
 
-.content-wrapper {
-    /* set a max-height that's bigger than the content will ever be */
-    max-height: 1000px; 
-    /* Add a transition */
-    transition: max-height 0.5s ease-in-out;
-    overflow: hidden; 
-}
-
 .tutorial-content {
     display: flex;
 }
@@ -134,8 +126,10 @@ header {
 }
 
 #gif {
+    display: block;
     padding: 20px 0;  /* Add top and bottom padding */
     border: 2px solid rgba(255, 255, 255, 0.2);
+    width: 100%;
 }
 
 #steps {
