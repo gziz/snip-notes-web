@@ -59,6 +59,7 @@ header {
     font-size: 2em;
     font-weight: bold;
 }
+
 .description {
     text-align: center;
     margin: 5px 0;
@@ -67,13 +68,9 @@ header {
     margin-right: auto;
 }
 
-.tutorial-gif {
-    width: 100%;
-    border: 2px solid rgba(255, 255, 255, 0.2);
-}
 .tutorial-block {
     width: 60%;
-    margin: 20px auto;
+    margin: 10px auto;
     margin-bottom: 50px;
 }
 
@@ -81,57 +78,9 @@ header {
     text-align: left;
 }
 
-.selection-bar {
-    display: flex;
-    justify-content: space-around;
-    border: 2px solid rgba(255, 255, 255, 0.2);
-    height: 20px; /* Increased height for better visual */
-    margin-bottom: 10px;
-    background-color: #25252b;
-}
-
-.select-option {
-    flex: 1;
-    color: #fff;
-    font-weight: bold;
-    font-size: 0.8em;
-    border: none;
-    cursor: pointer;
-    background-color: #25252b;
-    transition: background-color 0.3s;
-}
-
-.select-option:not(:last-child)::after {
-    content: '';
-    position: absolute;
-    right: 0;
-    top: 25%; /* Adjust as needed to center vertically */
-    bottom: 25%; /* Adjust as needed to center vertically */
-    width: 1px;
-    background-color: #fff; /* Light separator line color */
-}
-
-.select-option:hover {
-    background-color: rgba(255, 255, 255, 0.1); /* Darker than the previous color to be more subtle */
-}
-
-.tutorial-content {
-    display: flex;
-}
-
-.tutorial-content p, 
-.tutorial-content ol, 
-.tutorial-content li {
-    text-align: left;
-}
-
 #gif {
     display: block;
-    padding: 20px 0;  /* Add top and bottom padding */
-    border: 2px solid rgba(255, 255, 255, 0.2);
+    border: 3px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
     width: 100%;
-}
-
-#steps {
-    display: none;
 }

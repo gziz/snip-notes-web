@@ -1,14 +1,19 @@
 const tutorials = [
     {
-      header: "Creating a Note",
-      gifSrc: "resources/gifs/snip-notes-demo.gif",
-      steps: [
-        "Select the code you want to create a note about.",
-        "Open command palette (CMD + SHIFT + P).",
-        'Search for "Snip Notes: Create Note".',
-        'Type your personal note/insight in the box.',
-        'Enter!'
-      ]
+      header: "Create Note",
+      gifSrc: "https://random-jerry.s3.amazonaws.com/snip-notes/create-note.gif",
+    },
+    {
+      header: "Update Note",
+      gifSrc: "https://random-jerry.s3.amazonaws.com/snip-notes/update-note.gif",
+    },
+    {
+      header: "Delete Note + More options",
+      gifSrc: "https://random-jerry.s3.amazonaws.com/snip-notes/note-view-options.gif",
+    },
+    {
+      header: "Tree View (View all Workspace Notes)",
+      gifSrc: "https://random-jerry.s3.amazonaws.com/snip-notes/treeview.gif",
     },
   ];
   
