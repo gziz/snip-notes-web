@@ -61,11 +61,11 @@ header {
 }
 
 .description {
-    text-align: center;
+    /* text-align: center; */
+    text-align: justify;
     padding: 20px;
     max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
 
 .tutorial-block {
