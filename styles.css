@@ -62,7 +62,7 @@ header {
 
 .description {
     text-align: center;
-    margin: 5px 0;
+    padding: 20px;
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
@@ -83,4 +83,12 @@ header {
     border: 3px solid rgba(255, 255, 255, 0.2);
     border-radius: 10px;
     width: 100%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .tutorial-block {
+        width: 95%;
+        margin: 10px auto;
+        margin-bottom: 50px;
+    }
 }
